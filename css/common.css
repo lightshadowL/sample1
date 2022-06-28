@@ -18,3 +18,23 @@ img{
 *{
     box-sizing:border-box;
 }
+
+/*  기본 header 디자인 */
+header{
+    width:1200px;
+    height:100px;
+    background-color:#eee;
+    margin:auto;
+}
+#contents{
+    width:1200px;
+    height:auto;
+    background-color:#ddd;
+    margin:auto;
+}
+footer{
+    width:1200px;
+    height:100px;
+    background-color:#ccc;
+    margin:auto;
+}
