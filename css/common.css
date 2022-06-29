@@ -38,6 +38,7 @@ footer{
     height:100px;
     background-color:#ccc;
     margin:auto;
+    display:flex;
 }
 
 /* 헤더 세부 와이어 */
@@ -189,5 +190,39 @@ div.banner a{
     overflow:hidden;
 }
 div.banner a img{
+    width:100%;
+}
+
+/* footer */
+
+#f-logo{
+    width:200px;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#f-logo img{
+    width:100%;
+}
+div.f-text{
+    width:800px;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+div.sns{
+    width:200px;
+    height:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.sns a{
+    display:block;
+    width:25%;
+}
+div.sns img{
     width:100%;
 }
