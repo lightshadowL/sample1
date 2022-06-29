@@ -156,3 +156,38 @@ ul.notic-content>li>a{
     align-items: center;
     padding:0 10px;
 }
+
+/* 갤러리 */
+div.gallery h3{
+    padding:0;
+    margin:0;
+    width:150px;
+    height:30px;
+    background-color:#333;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:20px;
+}
+div.gallery>h3>a{
+    color:white;
+}
+div.gallery-contents{
+    width:100%;
+    height:140px;
+    border:1px solid black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* 배너 */
+div.banner a{
+    display:block;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+div.banner a img{
+    width:100%;
+}
