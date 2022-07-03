@@ -75,6 +75,7 @@ ul.gnb{
     padding:0;
     margin-right:20px;
     display:flex;
+    position:relative;
 }
 ul.gnb>li{
     width:25%;
@@ -94,7 +95,9 @@ ul.gnb>li>a{
 ul.gnb>li>a:hover{
     background-color:rgb(182, 43, 108);
 }
-
+/* ul.gnb>li:hover .active{
+    background-color:rgb(182, 43, 108);
+} */
 /* 콘텐츠 와이어프레임 */
 div.slider-wrap{
     width:100%;
@@ -226,3 +229,37 @@ div.sns a{
 div.sns img{
     width:100%;
 }
+
+ul.drop-wrap{
+    position:absolute;
+    width:100%;
+    list-style:none;
+    margin:0;
+    padding:0;
+    background-color:lightblue;
+    display:flex;
+    height:0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+ul.drop-wrap>li{
+    width:25%;
+}
+ul.drop-wrap>li>a{
+    display:flex;
+    width:90%;
+    margin:auto;
+    padding:10px;
+    border-bottom:1px dashed #666;
+}
+ul.drop-wrap>li>a:last-child{
+    border-bottom:none;
+}
+ul.drop-wrap>li>a:hover{
+    background-color:rgb(182, 43, 108);
+    color:white;
+}
+ul.gnb:hover ul.drop-wrap{
+    height:160px;
+}
+
